@@ -58,6 +58,11 @@ node default {
   #include hub
   #include nginx
 
+
+
+
+
+
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')
@@ -75,7 +80,18 @@ node default {
   #ruby::version { '2.1.1': }
   #ruby::version { '2.1.2': }
 
+  #sublime text 3
+  #sublime_text::package { 
+    # 'Emmet':
+    #   source => 'sergeche/emmet-sublime'
+  #}
+ 
   # common, useful packages
+
+  
+
+
+
   package {
     [
       'ack',

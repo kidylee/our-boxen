@@ -65,3 +65,11 @@ github "xquartz",     "1.2.1"
 # github "postgresql",  "3.0.3"
 # github "redis",       "3.1.0"
 # github "sysctl",      "1.0.1"
+
+
+github "sublime_text", "1.1.2", :repo => "HubSpot/puppet-sublime_text"
+github "chrome"
+github "iterm2"
+github "dropbox"
+github "java"
+github "shiftit"
